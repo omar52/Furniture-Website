@@ -26,3 +26,6 @@
 .main-btn.read {
   background-color: var(--main-color);
 }
+.main-btn.subscribe {
+  background-color: var(--main-color);
+}

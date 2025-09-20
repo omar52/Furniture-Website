@@ -1,7 +1,6 @@
 import MainButton from "../Buttons/MainButton";
 import "./FurnitureCard.css";
 const FurnitureCard = ({ furniture }) => {
-  console.log(furniture);
   return (
     <>
       {furniture && furniture.length > 0 ? (

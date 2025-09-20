@@ -1,7 +1,6 @@
 import MainButton from "../Buttons/MainButton";
 import "./BlogCard.css";
 const BlogCard = ({ blogs }) => {
-  console.log(blogs);
   return (
     <>
       {blogs && blogs.length > 0 ? (
