@@ -1,0 +1,24 @@
+.about{
+  padding-block: var(--section-block-padding);
+  background-color: var(--section-bg-color);
+    padding-inline: var(--section-inline-padding);
+}
+.about.row {
+      align-items: center;
+}
+.about.row h1 {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.about.row p {
+  font-size: var(--section-description-size);
+}
+
+.about.row .buttons{
+margin-top: 30px;
+}
+
+.about .line {
+    text-align: center;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,23 @@
+.blogs-section {
+  padding-block: var(--section-block-padding);
+  padding-inline: var(--section-inline-padding);
+}
+.blogs-section .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.3s ease-in-out;
+}
+.blogs-section .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.blogs-section .blog-cont {
+  padding: 20px;
+}
+.blogs-section .card-body {
+  padding: 0;
+}
+.blogs-section .card-body h5 {
+  font-size: 25px;
+  font-weight: bold;
+}

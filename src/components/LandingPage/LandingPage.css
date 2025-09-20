@@ -1,0 +1,19 @@
+.landing-page {
+  padding-block: var(--section-block-padding);
+  background-color: var(--section-bg-color);
+  padding-inline: var(--section-inline-padding);
+}
+.landing-page .row {
+  align-items: center;
+}
+.landing-page .row h1 {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.landing-page .row p {
+  font-size: var(--section-description-size);
+}
+
+.landing-page .row .buttons {
+  margin-top: 30px;
+}

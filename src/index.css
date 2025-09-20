@@ -1,12 +1,17 @@
 :root{
-    --text-color: black;
+    --text-color: #000 ;
     --main-color:#5db9bd;
     --secondary-color:#ff9338;
+    --hovering-color:#2b1b0d;
+    --section-bg-color:#f8fbfa;
+    --body-bg-color:#fff;
     --main-font:"Inter", sans-serif;
     --section-title-size:24px;
     --section-description-size:16px;
+    --section-block-padding:100px;
+    --section-inline-padding:50px;
 }
 body{
-    background-color: #f8fbfa;
+    background-color: var(--body-bg-color);
     color: var(--text-color);
 }

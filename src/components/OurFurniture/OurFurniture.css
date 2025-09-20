@@ -1,0 +1,12 @@
+.furniture-section {
+  text-align: center;
+  padding-block: var(--section-block-padding);
+}
+.furniture-section h2 {
+  font-size: var(--section-title-size);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.furniture-section > p {
+  font-size: var(--section-description-size);
+}

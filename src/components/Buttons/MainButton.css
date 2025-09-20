@@ -1,0 +1,28 @@
+.main-btn {
+  color: var(--body-bg-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  text-decoration: none;
+}
+
+.main-btn:hover {
+  opacity: 0.8;
+}
+
+.main-btn.contact {
+  background-color: var(--secondary-color);
+  margin-right: 20px;
+}
+.main-btn.about-landing {
+  background-color: var(--main-color);
+}
+.main-btn.fur-card-buy {
+  color: var(--main-color);
+}
+.main-btn.read {
+  background-color: var(--main-color);
+}

@@ -1,0 +1,28 @@
+.furniture-section .card {
+  text-align: left;
+  padding-top: 50px;
+  border: none;
+  background-color: var(--section-bg-color);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.3s ease-in-out;
+}
+.furniture-section .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.furniture-section .card img {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+.furniture-section .card .card-body:first-child {
+  margin-top: 20px;
+}
+.furniture-section .card .cont {
+  padding-block: 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-inline: 20px;
+}
