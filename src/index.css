@@ -1,0 +1,12 @@
+:root{
+    --text-color: black;
+    --main-color:#5db9bd;
+    --secondary-color:#ff9338;
+    --main-font:"Inter", sans-serif;
+    --section-title-size:24px;
+    --section-description-size:16px;
+}
+body{
+    background-color: #f8fbfa;
+    color: var(--text-color);
+}
